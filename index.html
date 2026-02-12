@@ -180,9 +180,27 @@
           grid.appendChild(card);
         });
       })
-      .catch(error => console.error('Error loading colors:', error));
+      .catch(error => {
+        console.error('Error loading colors:', error);
+        const grid = document.getElementById('paletteGrid');
+        grid.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 40px; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+            <h2 style="color: #e74c3c; margin-bottom: 10px;">⚠️ Error Loading Colors</h2>
+            <p style="color: #666;">Failed to load the color palette. Please make sure colors.json is accessible.</p>
+          </div>
+        `;
+      });
 
     function copyToClipboard(hex, name) {
+      // Check if clipboard API is available
+      if (!navigator.clipboard) {
+        const notification = document.getElementById('copyNotification');
+        notification.textContent = 'Clipboard not available (requires HTTPS or localhost)';
+        notification.classList.add('show');
+        setTimeout(() => notification.classList.remove('show'), 2000);
+        return;
+      }
+
       navigator.clipboard.writeText(hex).then(() => {
         const notification = document.getElementById('copyNotification');
         notification.textContent = `${name} (${hex}) copied to clipboard!`;
@@ -191,6 +209,12 @@
         setTimeout(() => {
           notification.classList.remove('show');
         }, 2000);
+      }).catch(err => {
+        console.error('Failed to copy:', err);
+        const notification = document.getElementById('copyNotification');
+        notification.textContent = 'Failed to copy to clipboard';
+        notification.classList.add('show');
+        setTimeout(() => notification.classList.remove('show'), 2000);
       });
     }
   </script>
