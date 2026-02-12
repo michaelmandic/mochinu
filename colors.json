@@ -1,0 +1,66 @@
+{
+  "name": "Mochinu",
+  "description": "A soft and colorful color palette inspired by mochi desserts",
+  "colors": {
+    "pink": {
+      "name": "Mochi Pink",
+      "hex": "#FFB3D9",
+      "rgb": "255, 179, 217",
+      "description": "Soft strawberry mochi pink"
+    },
+    "purple": {
+      "name": "Mochi Purple",
+      "hex": "#D4BFFF",
+      "rgb": "212, 191, 255",
+      "description": "Gentle lavender mochi purple"
+    },
+    "blue": {
+      "name": "Mochi Blue",
+      "hex": "#B3D9FF",
+      "rgb": "179, 217, 255",
+      "description": "Soft sky blue like blueberry mochi"
+    },
+    "green": {
+      "name": "Mochi Green",
+      "hex": "#B8E6B8",
+      "rgb": "184, 230, 184",
+      "description": "Fresh matcha mochi green"
+    },
+    "yellow": {
+      "name": "Mochi Yellow",
+      "hex": "#FFF5B3",
+      "rgb": "255, 245, 179",
+      "description": "Warm mango mochi yellow"
+    },
+    "orange": {
+      "name": "Mochi Orange",
+      "hex": "#FFCCB3",
+      "rgb": "255, 204, 179",
+      "description": "Sweet peach mochi orange"
+    },
+    "red": {
+      "name": "Mochi Red",
+      "hex": "#FFB3B3",
+      "rgb": "255, 179, 179",
+      "description": "Delicate cherry mochi red"
+    },
+    "cream": {
+      "name": "Mochi Cream",
+      "hex": "#FFF9E6",
+      "rgb": "255, 249, 230",
+      "description": "Soft vanilla cream"
+    },
+    "brown": {
+      "name": "Mochi Brown",
+      "hex": "#E6D4C4",
+      "rgb": "230, 212, 196",
+      "description": "Gentle chocolate mochi brown"
+    },
+    "gray": {
+      "name": "Mochi Gray",
+      "hex": "#E0E0E0",
+      "rgb": "224, 224, 224",
+      "description": "Soft cloud gray"
+    }
+  }
+}
