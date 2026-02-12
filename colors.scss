@@ -1,58 +1,33 @@
 /**
  * Mochinu Color Palette
- * A soft and colorful color palette inspired by mochi desserts
+ * Your color palette description
  */
 
-// Mochi Pink - Soft strawberry mochi pink
-$mochinu-pink: #FFB3D9;
-$mochinu-pink-rgb: 255, 179, 217;
+// Color 1 - Description for color 1
+$mochinu-color1: #000000;
+$mochinu-color1-rgb: 0, 0, 0;
 
-// Mochi Purple - Gentle lavender mochi purple
-$mochinu-purple: #D4BFFF;
-$mochinu-purple-rgb: 212, 191, 255;
+// Color 2 - Description for color 2
+$mochinu-color2: #000000;
+$mochinu-color2-rgb: 0, 0, 0;
 
-// Mochi Blue - Soft sky blue like blueberry mochi
-$mochinu-blue: #B3D9FF;
-$mochinu-blue-rgb: 179, 217, 255;
+// Color 3 - Description for color 3
+$mochinu-color3: #000000;
+$mochinu-color3-rgb: 0, 0, 0;
 
-// Mochi Green - Fresh matcha mochi green
-$mochinu-green: #B8E6B8;
-$mochinu-green-rgb: 184, 230, 184;
+// Color 4 - Description for color 4
+$mochinu-color4: #000000;
+$mochinu-color4-rgb: 0, 0, 0;
 
-// Mochi Yellow - Warm mango mochi yellow
-$mochinu-yellow: #FFF5B3;
-$mochinu-yellow-rgb: 255, 245, 179;
-
-// Mochi Orange - Sweet peach mochi orange
-$mochinu-orange: #FFCCB3;
-$mochinu-orange-rgb: 255, 204, 179;
-
-// Mochi Red - Delicate cherry mochi red
-$mochinu-red: #FFB3B3;
-$mochinu-red-rgb: 255, 179, 179;
-
-// Mochi Cream - Soft vanilla cream
-$mochinu-cream: #FFF9E6;
-$mochinu-cream-rgb: 255, 249, 230;
-
-// Mochi Brown - Gentle chocolate mochi brown
-$mochinu-brown: #E6D4C4;
-$mochinu-brown-rgb: 230, 212, 196;
-
-// Mochi Gray - Soft cloud gray
-$mochinu-gray: #E0E0E0;
-$mochinu-gray-rgb: 224, 224, 224;
+// Color 5 - Description for color 5
+$mochinu-color5: #000000;
+$mochinu-color5-rgb: 0, 0, 0;
 
 // Color map for iteration
 $mochinu-colors: (
-  'pink': $mochinu-pink,
-  'purple': $mochinu-purple,
-  'blue': $mochinu-blue,
-  'green': $mochinu-green,
-  'yellow': $mochinu-yellow,
-  'orange': $mochinu-orange,
-  'red': $mochinu-red,
-  'cream': $mochinu-cream,
-  'brown': $mochinu-brown,
-  'gray': $mochinu-gray
+  'color1': $mochinu-color1,
+  'color2': $mochinu-color2,
+  'color3': $mochinu-color3,
+  'color4': $mochinu-color4,
+  'color5': $mochinu-color5
 );
