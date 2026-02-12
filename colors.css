@@ -1,0 +1,26 @@
+/**
+ * Mochinu Color Palette
+ * Your color palette description
+ */
+
+:root {
+  /* Color 1 - Description for color 1 */
+  --mochinu-color1: #000000;
+  --mochinu-color1-rgb: 0, 0, 0;
+
+  /* Color 2 - Description for color 2 */
+  --mochinu-color2: #000000;
+  --mochinu-color2-rgb: 0, 0, 0;
+
+  /* Color 3 - Description for color 3 */
+  --mochinu-color3: #000000;
+  --mochinu-color3-rgb: 0, 0, 0;
+
+  /* Color 4 - Description for color 4 */
+  --mochinu-color4: #000000;
+  --mochinu-color4-rgb: 0, 0, 0;
+
+  /* Color 5 - Description for color 5 */
+  --mochinu-color5: #000000;
+  --mochinu-color5-rgb: 0, 0, 0;
+}

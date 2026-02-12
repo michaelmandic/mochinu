@@ -1,0 +1,36 @@
+{
+  "name": "Mochinu",
+  "description": "Your color palette description",
+  "colors": {
+    "color1": {
+      "name": "Color 1",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "description": "Description for color 1"
+    },
+    "color2": {
+      "name": "Color 2",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "description": "Description for color 2"
+    },
+    "color3": {
+      "name": "Color 3",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "description": "Description for color 3"
+    },
+    "color4": {
+      "name": "Color 4",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "description": "Description for color 4"
+    },
+    "color5": {
+      "name": "Color 5",
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "description": "Description for color 5"
+    }
+  }
+}

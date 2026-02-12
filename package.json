@@ -1,0 +1,34 @@
+{
+  "name": "mochinu",
+  "version": "1.0.0",
+  "description": "A soft and colorful color palette inspired by mochi desserts",
+  "main": "colors.json",
+  "files": [
+    "colors.json",
+    "colors.css",
+    "colors.scss"
+  ],
+  "keywords": [
+    "color",
+    "palette",
+    "colors",
+    "mochi",
+    "pastel",
+    "soft",
+    "design",
+    "ui",
+    "css",
+    "scss",
+    "design-system"
+  ],
+  "author": "Michael Mandic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmandic/mochinu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelmandic/mochinu/issues"
+  },
+  "homepage": "https://github.com/michaelmandic/mochinu#readme"
+}
